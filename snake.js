@@ -9,6 +9,7 @@
 * dead if its health value less than or equel 0.
 * green cell will by Antidote who can cure snake
 * 2. Using HTML5 localstorage to keep the best score.
+* @Author Ning ZHANG (ning.zhang@supinfo.com)
 */
 var Snake = Class.create(Tools,{
  
