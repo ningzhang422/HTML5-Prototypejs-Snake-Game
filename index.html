@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="prototype.js"></script>
+<script src="tools.js"></script>
+<script src="food.js"></script>
+<script src="snake.js"></script>
+<script>
+document.observe("dom:loaded", function() {
+  	var canvas = $("canvas");
+	var ctx = canvas.getContext("2d");
+	
+	var w = $("canvas").getWidth();
+	var h = $("canvas").getHeight();
+
+	snake = new Snake(ctx,w,h);
+});
+		
+</script>
+</head>
+<body>
+<canvas id="canvas" width="750" height="250">
+</canvas>
+</body>
+</html>
+
